@@ -9,7 +9,7 @@ class Ylem< Formula
   depends_on "cmake"
   depends_on "git"
   depends_on "make"
-  depends_on :gcc => 9.3.0
+  depends_on :gcc => "9.3.0"
 
   def install
     system "mkdir", "build"
