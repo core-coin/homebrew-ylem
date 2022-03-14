@@ -10,7 +10,6 @@ class Ylem< Formula
   depends_on "git"
   depends_on "make"
   depends_on "gcc@9"
-  depends_on "boost@1.76"
 
   def install
     system "mkdir", "build"
